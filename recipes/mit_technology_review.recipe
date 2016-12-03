@@ -42,7 +42,7 @@ class MitTechnologyReview(BasicNewsRecipe):
             'article-topper__topic article-topper__title article-topper__media-wrap article-body__content'),
     ]
     remove_tags = [
-        classes('l-article-list'),
+        classes('l-article-list l-magazine-promo l-article-img l-pullquote'),
     ]
 
     def parse_index(self):
